@@ -36,11 +36,11 @@
 	<div class="" id="app">
 		<header class="header">
 			<div class="top_bar">
-				<div class="drawer-toggle">
+				<a href="/ProjectCuoiKiWeb/homepages" class="drawer-toggle">
 					<button style="border: none;" class="btn btn-toggle">
 						<span class="fa-solid fa-bars"></span>
 					</button>
-				</div>
+				</a>
 
 				<div class="flex-wrapper">
 					<div class="intro">
@@ -180,11 +180,6 @@
 				</nav>
 				<article class="col-9">
 					<div class="profile_content">
-						<div style="justify-content: right;" class="branding-inner">
-							<a style="margin-top: 0;" href="homepages" class="site-name">
-								<img class="site-logo" src="${company.logo}" alt="UTEX-HCMUTE">
-							</a>
-						</div>
 						<form action="myprofiles" method="post">
 							<div class="profile_account">
 								<h6>Account</h6>
@@ -306,6 +301,8 @@
 								</c:forEach>
 							</div>
 						</c:if>
+
+
 					</div>
 				</article>
 			</div>
@@ -319,8 +316,7 @@
 				</div>
 				<a href="#">Get the mobile app</a>
 			</div>
-			<div class="footer_main_info">Copyright ${company.getName()} ©
-				2023</div>
+			<div class="footer_main_info">Copyright ${company.getName()} © 2023</div>
 
 		</footer>
 	</div>
